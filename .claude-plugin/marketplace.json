@@ -1,0 +1,23 @@
+{
+  "name": "scale-ads",
+  "owner": {
+    "name": "Flatline Agency",
+    "email": "robin@flatlineagency.com"
+  },
+  "metadata": {
+    "description": "Meta ads competitor intel, copy generation, pre-launch scoring, and live account audits",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "scale-ads",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/oldevelopment/scale-ads.git"
+      },
+      "description": "Meta ads competitor intel, copy generation, pre-launch scoring, and live account audits — inside Claude Code",
+      "version": "1.0.0",
+      "strict": false
+    }
+  ]
+}
