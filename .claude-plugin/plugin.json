@@ -1,0 +1,16 @@
+{
+  "name": "scale-ads",
+  "description": "Meta ads competitor intel, copy generation, pre-launch scoring, and live account audits — inside Claude Code",
+  "version": "1.0.0",
+  "author": {
+    "name": "Flatline Agency"
+  },
+  "license": "MIT",
+  "keywords": [
+    "meta-ads",
+    "facebook-ads",
+    "ad-copy",
+    "competitor-intel",
+    "apify"
+  ]
+}
