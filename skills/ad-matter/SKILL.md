@@ -6,9 +6,9 @@ description: Full health audit of your live Meta ad account — scores it 0–10
 # /ad-matter — Live Meta Account Audit
 
 ## Requirements
-- The official Meta Ads MCP must be connected at `mcp.facebook.com/ads`
-- No API token needed — auth is handled by the MCP connection
-- **Note:** Meta is rolling this out gradually. If MCP tools are unavailable, inform the user and stop gracefully.
+- The **Commerce365 MCP** must be connected. Install Commerce365 on your Shopify store at [apps.shopify.com/commerce365](https://apps.shopify.com/commerce365), then connect the Claude MCP from within the Commerce365 dashboard.
+- No Meta API token needed — auth is handled through the Commerce365 MCP connection.
+- If MCP tools are unavailable, inform the user and stop gracefully.
 
 ## Step 1 — Find the account
 
@@ -143,4 +143,4 @@ scale-ads-runs/ad-matter-[account-slug]-[YYYY-MM-DD]/
 
 ## If Meta MCP is unavailable
 Inform the user:
-> "The Meta Ads MCP (mcp.facebook.com/ads) isn't connected or hasn't been granted access to this account yet. Meta is rolling out access gradually. To connect it: [Settings → MCP Servers → Add mcp.facebook.com/ads]. The other 5 skills work without it."
+> "The Commerce365 MCP isn't connected. To set it up: install Commerce365 on your Shopify store at apps.shopify.com/commerce365, then open the Commerce365 dashboard and follow the Claude MCP connection steps. The other 5 skills work without it."
